@@ -11,6 +11,7 @@ A local gym wants to implement an "exercise of the day" program where there is a
   console.log(exercise("Dancing")); 
 // Output: Today's exercise: Fencing
   console.log(exercise("Fencing")); 
+
 MEDIUM: 
 Write a function that will allow you to calculate how many slices of pizza x each person y would get if they shared evenly. The function should return an interpolated string like Each person gets 4.00 slices of pizza; from our 8-slice pizza x being a decimal in case there is no way to split the pizza evenly.
 // Output: Each person gets 4 slices of pizza; from our 8 slice pizza
@@ -22,6 +23,7 @@ Write a function that will allow you to calculate how many slices of pizza x eac
 // Output:Each person gets 3.33 slices of pizza; from our 10 slice pizza
   console.log(sharePizza(10, 3)); 
 See next page...
+
 HARD:
 Inside a closure, create an object called PII (Personally Identifiable Information)that cannot be accessed directly. The object should have at least two properties: name and SSN. Only the name property should be accessible, and it should be called through a public function. The SSN property should not be accessible at all. Creating private objects and private properties helps you control who has access to what data and helps you prevent people who shouldn't see important info like social security numbers from getting access to the data. You can use 'getName' or other get methods to access data that people might need. For example, people addressing a package or email may need a customer's name, but they definitely shouldn't have access to their SSN.
 // Output: Undefined
@@ -32,6 +34,7 @@ Inside a closure, create an object called PII (Personally Identifiable Informati
   console.log(patient2.getName());
 // Output: 123-45-6789
   console.log(patient2.getSSN()); 
+
 VERY HARD: 
 Object prototype chain and prototypal inheritance exercise.
 Create a Person constructor that has three properties: name, job, and age.
